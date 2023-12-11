@@ -71,6 +71,7 @@ def fill_contact_form(driver: webdriver.Chrome) -> None:
 
         selects = form.find_elements(By.TAG_NAME, 'select')
         for select in selects:
+            time.sleep(1)  # Delay before interacting with each field
             select.click()
             select_first_option(select, form)
 
