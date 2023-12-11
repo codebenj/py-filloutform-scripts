@@ -99,7 +99,7 @@ def main():
         print("====================================================")
     
     # Keep the browser open for a specified amount of time
-    time.sleep(30)  # Adjust the time as needed
+    time.sleep(30)
 
     driver.quit() 
 
